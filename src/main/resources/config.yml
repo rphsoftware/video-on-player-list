@@ -1,0 +1,7 @@
+optout:
+
+messages:
+  enabledplaying: §6This server uses a Image-on-player-list plugin. This may cause significant bandwidth usage. Run §a/disableimages §6to opt out of seeing images on your player list.
+  disabled: §6Opted-out successfully. Run §a/enableimages §6to opt back in
+  enabled: §6Opted-in successfully.
+  disabledplaying: §6There is now an image being shown on the player list but you are opted out. If you want to view it, run §a/enableimages

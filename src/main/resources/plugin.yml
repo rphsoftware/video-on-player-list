@@ -1,0 +1,31 @@
+name: Playerlistimages
+version: @version@
+main: space.rph.playerlistimages.Playerlistimages
+api-version: 1.16
+prefix: PlayerListImages
+authors: [ Rph ]
+description: A plugin to display images and play video on the player list
+website: https://rph.space/
+depend: [ProtocolLib]
+
+commands:
+  enableimages:
+    description: Opt-in to images on your player list
+    usage: /enableimages
+  disableimages:
+    description: Opt-out of images on your player list
+    usage: /disableimages
+  clearimage:
+    description: Stop showing an image on the player list
+    usage: /clearimage
+  showimage:
+    description: Show a static image on the player list
+    usage: /showimage <name>
+  playvideo:
+    description: Play a video on the player list on repeat until /clearimage is ran
+    usage: /playvideo <name>
+
+permissions:
+  playerlistimages.admin:
+    description: Allows you to run /clearimage, /showimage and /playvideo
+    default: op
